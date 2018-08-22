@@ -13,11 +13,6 @@ pipeline {
       steps {
         sh 'npm install'
       }
-
-      post {
-        always {
-        }
-      }
     }
   }
 }
