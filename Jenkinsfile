@@ -5,7 +5,7 @@ pipeline {
         cron('0 12,3,6 * * *')
   }
     
-  tools {nodejs "node"}
+  tools {nodejs}
     
   stages {
         
